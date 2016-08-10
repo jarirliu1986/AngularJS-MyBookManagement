@@ -1,1 +1,73 @@
-this is the detail of the book
+<div class="well" ng-controller="BookDetailCtrl">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="image/angularjs.jpg" alt="AngularJS image" width="80%">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a ui-sref="booklist({bookType:0})" class="btn btn-primary">Return</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form-horizontal" role="form" name="form">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                Book name：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">
+                                    <a href="https://www.amazon.com/Pro-AngularJS-Experts-Voice-Development/dp/1430264489/ref=sr_1_1?s=books&ie=UTF8&qid=1469195281&sr=1-1&keywords=angularjs" target="_blank">Pro AngularJS</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                Type：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">Computer Science</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                Publication date：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">2014-03</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                Author：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">Jack</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                Price:
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">$16-$40</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">
+                                Have E-book：
+                            </label>
+                            <div class="col-md-10">
+                                <p class="form-control-static">No</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
