@@ -1,6 +1,7 @@
 This a simple book store web application wrote by Shirley.
 
-1. Make sure Firefox is your default browser. The application should be opened in Firefox
+1. If there is no server installed in your computer, the application could be simply opened in Firefox. 
+Or you can run the application on a server.
 
 2. Please click index.html to open the web page.
 
